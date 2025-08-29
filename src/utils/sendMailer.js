@@ -3,7 +3,7 @@
 import { logger } from '../utils/logger.js';
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 
-// const pngLogoPath = path.resolve('./src/assets/images/TrustPays24.png');
+// const pngLogoPath = path.resolve('./src/assets/images/taxibooking.png');
 
 const sesClient = new SESClient({
   region: process.env.SMTP_REGION,
@@ -104,9 +104,9 @@ export const sendCredentialsEmail = async ({
   //   html,
   //   attachments: [
   //     {
-  //       filename: 'TrustPays24_Logo.png',
+  //       filename: 'taxibooking.png',
   //       path: pngLogoPath,
-  //       cid: 'trustpays-logo',
+  //       cid: 'taxibooking-logo',
   //     },
   //   ],
   // };
@@ -203,9 +203,9 @@ export const sendOTP = async (email, otp, user_name, designation) => {
   //   html,
   //   attachments: [
   //     {
-  //       filename: 'TrustPays24_Logo.png',
+  //       filename: 'taxibooking.png',
   //       path: pngLogoPath,
-  //       cid: 'trustpays-logo',
+  //       cid: 'taxibooking-logo',
   //     },
   //   ],
   // };

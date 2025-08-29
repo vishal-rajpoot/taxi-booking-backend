@@ -4,9 +4,9 @@ const swaggerOptions = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Trust-pay API Documentation',
+      title: 'Taxi-Booking API Documentation',
       version: '1.0.0',
-      description: 'Documentation for Trust Pay APIs',
+      description: 'Documentation for Taxi Booking APIs',
     },
     servers: [
       {
