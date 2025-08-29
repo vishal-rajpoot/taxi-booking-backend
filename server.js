@@ -13,7 +13,7 @@ const server = createServer(app);
 
 initializeSocket(server);
 
-const PORT = config?.port || 8090;
+const PORT = config?.port || 8000;
 
 const normalizePort = (val) => {
   const port = parseInt(val, 10);
